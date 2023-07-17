@@ -14,3 +14,5 @@ Writes an excel workbook with the same name (but .xlsx extension (duh)) as the .
 
 NOTE:\
 Much of this can be made more modular, such as the metrics which are included in the summary and the 2min/5min interval length in the summary. These are not modular (yet) because this project is made for a specific purpose and at the moment it's okay that they're 'magic numbers'.
+
+Also, columns are renamed to have the same names as in GoldenCheetah for ease of switching between the two.
