@@ -1,6 +1,6 @@
 # Garmin-Project-Code
  
-Project for Dr. Dustin Joubert meant to help automate the summary of metrics from wearables and package it into an Excel workbook.\
+Project for Dr. Dustin Joubert meant to help automate the summary of metrics from wearables and package it into an Excel workbook.
 I've been working on it for about two weeks so it's gone thorugh some iterations before this but better late than never to make a github repo.
 
 TO USE:
