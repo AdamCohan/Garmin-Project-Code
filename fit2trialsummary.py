@@ -45,7 +45,7 @@ def summarize(fitFile, intervalEndTimeList):
 
     # set up final file (same name as the given fit file)
     xlsxName = fitFile[:-3] + 'xlsx'
-    aggregateOverIntervals(dfWithTime, intervalEndTimeList, [2,5], columnsOfInterestGC,xlsxName)
+    aggregateOverIntervals(dfWithTime, intervalEndTimeList, [2,4.5], columnsOfInterestGC,xlsxName)
 
 def getColsOfInterestRenamed(record_mesgs, colsOfInterest):
     dev_fields = pd.DataFrame.from_records(list(record_mesgs['developer_fields']))
