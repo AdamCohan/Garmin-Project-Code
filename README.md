@@ -10,7 +10,7 @@ python3 fit2trialsummary.py [.fit filepath] [minute timestamps for the end of th
 ex: python3 fit2trialsummary.py filename.fit 10 20 30 40 50
 
 OUTPUT:\
-Writes an excel workbook with the same name (but .xlsx extension (duh)) as the .fit file with three sheets. The first two represent the summary of the relevant metrics over the last 2min and 5min of each interval respectively. The third sheet represents the continuous raw output of data from the .fit file for debugging purposes.
+Writes an excel workbook with the same name (but .xlsx extension (duh)) as the .fit file with three sheets. The first two represent the summary of the relevant metrics over the last 2min and 4.5min of each interval respectively. The third sheet represents the continuous raw output of data from the .fit file for debugging purposes.
 
 NOTE:\
 Much of this can be made more modular, such as the metrics which are included in the summary and the 2min/5min interval length in the summary. These are not modular (yet) because this project is made for a specific purpose and at the moment it's okay that they're 'magic numbers'.
