@@ -79,7 +79,7 @@ def aggregateOverIntervals(ogDF, intervalEndTimeList, intervalDurationList, cols
     '''
     All times are given in minutes
     intervalEndTimeList --> the end times for each interval (measured backwards from 15min, 25min, 35min, 45min)
-    intervalDurationList --> the durations of intervals to be measuring from the end of each interval [2min, 5min]
+    intervalDurationList --> the durations of intervals to be measuring from the end of each interval [2min, 4.5min]
     '''
 
     writer = pd.ExcelWriter(xlsxName, engine='xlsxwriter')
@@ -92,7 +92,7 @@ def aggregateOverIntervals(ogDF, intervalEndTimeList, intervalDurationList, cols
     
     numIntervals = len(intervalEndTimeList)
 
-    # for 2min, 5min, make the summary df
+    # for 2min, 4.5min, make the summary df
     for intervalLen in intervalDurationList:
 
         # Distance_1, Distance_2, Distance_3, Distance_4, GCT_1, GCT_2, ... (initializing with value of intervalLen)
